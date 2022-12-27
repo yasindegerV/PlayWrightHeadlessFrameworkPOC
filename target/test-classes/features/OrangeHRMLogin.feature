@@ -1,7 +1,8 @@
+@wip
 Feature: Login Scenarios
 
   Background:
-    Given "https://google.com" sitesini aç.
+    Given "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" sitesini aç.
     Then Login syfasında olduğunu doğrula.
 
   Scenario: OrangeHRM Login Scenario
