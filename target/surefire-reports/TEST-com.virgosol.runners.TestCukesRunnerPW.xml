@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.virgosol.runners.TestCukesRunnerPW" time="13.912" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/test-classes:/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/classes:/Users/virgosol/.m2/repository/com/microsoft/playwright/playwright/1.28.1/playwright-1.28.1.jar:/Users/virgosol/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/virgosol/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/virgosol/.m2/repository/com/microsoft/playwright/driver/1.28.1/driver-1.28.1.jar:/Users/virgosol/.m2/repository/com/microsoft/playwright/driver-bundle/1.28.1/driver-bundle-1.28.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-java/7.10.1/cucumber-java-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-core/7.10.1/cucumber-core-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-gherkin/7.10.1/cucumber-gherkin-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.10.1/cucumber-gherkin-messages-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/gherkin/25.0.2/gherkin-25.0.2.jar:/Users/virgosol/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/virgosol/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/virgosol/.m2/repository/io/cucumber/datatable/7.10.1/datatable-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-plugin/7.10.1/cucumber-plugin-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/docstring/7.10.1/docstring-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/html-formatter/20.2.0/html-formatter-20.2.0.jar:/Users/virgosol/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/virgosol/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-junit/7.10.1/cucumber-junit-7.10.1.jar:/Users/virgosol/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/virgosol/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/virgosol/.m2/repository/com/aventstack/extentreports-cucumber4-adapter/1.2.1/extentreports-cucumber4-adapter-1.2.1.jar:/Users/virgosol/.m2/repository/com/aventstack/klov-reporter/5.0.1/klov-reporter-5.0.1.jar:/Users/virgosol/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/virgosol/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/virgosol/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/virgosol/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/virgosol/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/virgosol/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/virgosol/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/virgosol/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/virgosol/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/virgosol/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/virgosol/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/virgosol/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/virgosol/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/virgosol/.m2/repository/org/slf4j/slf4j-reload4j/2.0.5/slf4j-reload4j-2.0.5.jar:/Users/virgosol/.m2/repository/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22.jar:/Users/virgosol/.m2/repository/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar:/Users/virgosol/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/virgosol/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/virgosol/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="/Users/virgosol/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/surefire/surefirebooter-20221227132041733_3.jar /Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/surefire 2022-12-27T13-20-36_578-jvmRun1 surefire-20221227132041733_1tmp surefire_0-20221227132041733_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/test-classes:/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/classes:/Users/virgosol/.m2/repository/com/microsoft/playwright/playwright/1.28.1/playwright-1.28.1.jar:/Users/virgosol/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/virgosol/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/virgosol/.m2/repository/com/microsoft/playwright/driver/1.28.1/driver-1.28.1.jar:/Users/virgosol/.m2/repository/com/microsoft/playwright/driver-bundle/1.28.1/driver-bundle-1.28.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-java/7.10.1/cucumber-java-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-core/7.10.1/cucumber-core-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-gherkin/7.10.1/cucumber-gherkin-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.10.1/cucumber-gherkin-messages-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/gherkin/25.0.2/gherkin-25.0.2.jar:/Users/virgosol/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/virgosol/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/virgosol/.m2/repository/io/cucumber/datatable/7.10.1/datatable-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-plugin/7.10.1/cucumber-plugin-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/docstring/7.10.1/docstring-7.10.1.jar:/Users/virgosol/.m2/repository/io/cucumber/html-formatter/20.2.0/html-formatter-20.2.0.jar:/Users/virgosol/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/virgosol/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/virgosol/.m2/repository/io/cucumber/cucumber-junit/7.10.1/cucumber-junit-7.10.1.jar:/Users/virgosol/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/virgosol/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/virgosol/.m2/repository/com/aventstack/extentreports-cucumber4-adapter/1.2.1/extentreports-cucumber4-adapter-1.2.1.jar:/Users/virgosol/.m2/repository/com/aventstack/klov-reporter/5.0.1/klov-reporter-5.0.1.jar:/Users/virgosol/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/virgosol/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/virgosol/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/virgosol/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/virgosol/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/virgosol/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/virgosol/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/virgosol/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/virgosol/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/virgosol/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/virgosol/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/virgosol/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/virgosol/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/virgosol/.m2/repository/org/slf4j/slf4j-reload4j/2.0.5/slf4j-reload4j-2.0.5.jar:/Users/virgosol/.m2/repository/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22.jar:/Users/virgosol/.m2/repository/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar:/Users/virgosol/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/virgosol/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/virgosol/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/virgosol"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Users/virgosol/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/target/surefire/surefirebooter-20221227132041733_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.17+8-LTS"/>
+    <property name="user.name" value="virgosol"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.17.8.1"/>
+    <property name="localRepository" value="/Users/virgosol/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/"/>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="/Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/virgosol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.17+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="OrangeHRM Login Scenario" classname="Login Scenarios" time="13.298">
+    <system-out><![CDATA[
+@wip
+Scenario: OrangeHRM Login Scenario                                                        &amp#27;[90m# src/test/resources/features/OrangeHRMLogin.feature:8&amp#27;[0m
+browserTypeAsString = firefox
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"&amp#27;[0m&amp#27;[32m sitesini aç.&amp#27;[0m &amp#27;[90m# com.virgosol.stepImpl.OrangeLoginStepImpl.sitesini_aç(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mLogin syfasında olduğunu doğrula.&amp#27;[0m                                                  &amp#27;[90m# com.virgosol.stepImpl.OrangeLoginStepImpl.login_syfasında_olduğunu_doğrula()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter username as &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m                                                           &amp#27;[90m# com.virgosol.stepImpl.OrangeLoginStepImpl.enter_username_as(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m                                                        &amp#27;[90m# com.virgosol.stepImpl.OrangeLoginStepImpl.enter_password_as(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick Login button&amp#27;[0m                                                                  &amp#27;[90m# com.virgosol.stepImpl.OrangeLoginStepImpl.click_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mVerify on login page&amp#27;[0m                                                               &amp#27;[90m# com.virgosol.stepImpl.OrangeLoginStepImpl.verify_on_login_page()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
