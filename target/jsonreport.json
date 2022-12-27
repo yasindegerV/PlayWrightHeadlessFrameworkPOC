@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12749589000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"https://google.com\" sitesini aç.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://google.com\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.virgosol.stepImpl.OrangeLoginStepImpl.sitesini_aç(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36106000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login syfasında olduğunu doğrula.",
+            "match": {
+              "location": "com.virgosol.stepImpl.OrangeLoginStepImpl.login_syfasında_olduğunu_doğrula()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-27T06:38:14.700Z",
+        "line": 7,
+        "name": "OrangeHRM Login Scenario",
+        "description": "",
+        "id": "login-scenarios;orangehrm-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "com.microsoft.playwright.PlaywrightException: Error {\n  message\u003d\u0027Target closed\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d logs \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nwaiting for locator(\"xpath\u003d//input[@name\u003d\u0027username\u0027]\")\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  name\u003d\u0027Error\n  stack\u003d\u0027Error: Target closed\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d logs \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nwaiting for locator(\"xpath\u003d//input[@name\u003d\u0027username\u0027]\")\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n    at /private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/firefox/ffConnection.js:189:16\n    at new Promise (\u003canonymous\u003e)\n    at FFSession.send (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/firefox/ffConnection.js:185:12)\n    at FFExecutionContext.evaluateWithArguments (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/firefox/ffExecutionContext.js:68:41)\n    at FrameExecutionContext.evaluateWithArguments (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/javascript.js:61:61)\n    at evaluateExpression (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/javascript.js:215:26)\n    at async InjectedScriptPollHandler.finishHandle (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/dom.js:855:22)\n    at async RerunnableTask.rerun (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/frames.js:1557:73)\n}\n\tat com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:119)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:339)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$fill$15(FrameImpl.java:329)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:329)\n\tat com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:182)\n\tat com.microsoft.playwright.Locator.fill(Locator.java:2473)\n\tat com.virgosol.stepImpl.OrangeLoginStepImpl.enter_username_as(OrangeLoginStepImpl.java:29)\n\tat ✽.Enter username as \"Admin\"(file:///Users/virgosol/IdeaProjects/PlayWrightFrameworkPOC/src/test/resources/features/OrangeHRMLogin.feature:8)\nCaused by: com.microsoft.playwright.impl.DriverException: Error {\n  message\u003d\u0027Target closed\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d logs \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nwaiting for locator(\"xpath\u003d//input[@name\u003d\u0027username\u0027]\")\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n  name\u003d\u0027Error\n  stack\u003d\u0027Error: Target closed\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d logs \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nwaiting for locator(\"xpath\u003d//input[@name\u003d\u0027username\u0027]\")\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n    at /private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/firefox/ffConnection.js:189:16\n    at new Promise (\u003canonymous\u003e)\n    at FFSession.send (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/firefox/ffConnection.js:185:12)\n    at FFExecutionContext.evaluateWithArguments (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/firefox/ffExecutionContext.js:68:41)\n    at FrameExecutionContext.evaluateWithArguments (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/javascript.js:61:61)\n    at evaluateExpression (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/javascript.js:215:26)\n    at async InjectedScriptPollHandler.finishHandle (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/dom.js:855:22)\n    at async RerunnableTask.rerun (/private/var/folders/0y/pmmbmb8j10s5njcw2jxgb4gw0000gn/T/playwright-java-15080963923791820542/package/lib/server/frames.js:1557:73)\n}\n\tat com.microsoft.playwright.impl.Connection.dispatch(Connection.java:201)\n\tat com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:181)\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:119)\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)\n\tat com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:339)\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$fill$15(FrameImpl.java:329)\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\n\tat com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:329)\n\tat com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:182)\n\tat com.microsoft.playwright.Locator.fill(Locator.java:2473)\n\tat com.virgosol.stepImpl.OrangeLoginStepImpl.enter_username_as(OrangeLoginStepImpl.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 16607405000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Enter username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.virgosol.stepImpl.OrangeLoginStepImpl.enter_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.virgosol.stepImpl.OrangeLoginStepImpl.enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click Login button",
+            "match": {
+              "location": "com.virgosol.stepImpl.OrangeLoginStepImpl.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Verify on login page",
+            "match": {
+              "location": "com.virgosol.stepImpl.OrangeLoginStepImpl.verify_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Scenarios",
+    "description": "",
+    "id": "login-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrangeHRMLogin.feature",
+    "tags": []
+  }
+]

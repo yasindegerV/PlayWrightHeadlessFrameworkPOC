@@ -1,0 +1,12 @@
+[
+  {
+    "key": "Test",
+    "value": "//h5[.='Login']",
+    "type": "xpath"
+  },
+  {
+    "key": "Test2",
+    "value": "button[type='submit']",
+    "type": "css"
+  }
+]
