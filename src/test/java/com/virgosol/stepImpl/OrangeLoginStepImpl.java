@@ -1,10 +1,10 @@
 package com.virgosol.stepImpl;
 
-import com.virgosol.utilities.Driver;
+import com.virgosol.utilities.DriverPW;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class OrangeLoginStepImpl extends Driver{
+public class OrangeLoginStepImpl extends DriverPW {
 
 
     @Given("{string} sitesini aç.")

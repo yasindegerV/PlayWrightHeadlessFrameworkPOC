@@ -1,4 +1,4 @@
-@wip
+@wipPW
 Feature: Login Scenarios
 
   Background:

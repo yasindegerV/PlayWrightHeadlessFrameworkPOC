@@ -5,7 +5,7 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-public class Driver {
+public class DriverPW {
 
     protected Browser browser;
     protected Page page;
