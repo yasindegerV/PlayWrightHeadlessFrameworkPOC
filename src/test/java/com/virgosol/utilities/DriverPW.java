@@ -29,7 +29,7 @@ public class DriverPW {
         if (browserType == null) {
             throw new IllegalArgumentException("Browser couldnt opened " + browserTypeAsString);
         }
-        browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false));
+        browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(true));
         page = browser.newPage();
         return page;
 
