@@ -3,6 +3,7 @@ package com.virgosol.stepImpl;
 import com.virgosol.utilities.DriverPW;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class OrangeLoginStepImpl extends DriverPW {
 
@@ -11,7 +12,7 @@ public class OrangeLoginStepImpl extends DriverPW {
     public void sitesini_aç(String website) {
 
         try {
-            String browser = "firefox";
+            String browser = "chromium";
             page = createPlaywrightPageInstance(browser);
             page.navigate(website);
         }
@@ -41,4 +42,37 @@ public class OrangeLoginStepImpl extends DriverPW {
         page.locator("//h6[.='Dashboard']").isVisible();
     }
 
+
+    /**sandbox
+     *
+     */
+
+
+
+    @When("Login linkine tıkla.")
+    public void login_linkine_tıkla() {
+        page.locator("//span[contains(@class,'login')]//a").click();
+    }
+    @Then("Giriş sayfasında olduğunu doğrula.")
+    public void giriş_sayfasında_olduğunu_doğrula() {
+        page.locator("#loginbtn").isVisible();
+    }
+    @Then("{string} username gir.")
+    public void gir(String username) {
+        page.locator("//input[@id='username']").fill(username);
+    }
+    @Then("{string} password gir.")
+    public void girPass(String password) {
+        page.locator("//input[@id='password']").fill(password);
+    }
+
+    @Then("Login butonuna tıkla.")
+    public void login_butonuna_tıkla() {
+        page.locator("//button[@id='loginbtn']").click();
+    }
+    @Then("{string} title'ın görüldüğünü doğrula.")
+    public void title_ın_görüldüğünü_doğrula(String title) {
+        page.locator("(//h2)[1]").innerText().contains(title);
+
+    }
 }

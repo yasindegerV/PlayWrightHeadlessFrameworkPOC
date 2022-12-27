@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        tags = "",
+        tags = "@wipPlay",
         dryRun = false,
         features = "src/test/resources/features",
         glue = {"com/virgosol/stepImpl"},
